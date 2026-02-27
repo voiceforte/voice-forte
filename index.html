@@ -549,14 +549,12 @@
             }
         }
     </style>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body>
-    <!-- Header - Same as about.html, services.html, contact.html -->
-    <header class="main-header bg-gradient-dark">
-    <div class="container">
-        <nav class="navbar">
-            <div class="nav-container d-flex justify-between align-center">
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
                 <a href="/" class="logo">
                     <div class="logo-text">
                         <h1>Voice Forte<span class="trademark">™</span></h1>
@@ -564,311 +562,275 @@
                     </div>
                 </a>
                 
-                <!-- FIXED: Added screen reader text -->
-                <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
-                    <span class="sr-only">Menu</span>
-                    <span class="menu-bar" aria-hidden="true"></span>
-                    <span class="menu-bar" aria-hidden="true"></span>
-                    <span class="menu-bar" aria-hidden="true"></span>
-                </button>
-                
-                <ul class="nav-links d-flex align-center">
+                <ul class="nav-links">
                     <li><a href="/" class="nav-link active">Home</a></li>
                     <li><a href="/about.html" class="nav-link">About</a></li>
                     <li><a href="/services.html" class="nav-link">Services</a></li>
+                    <li><a href="/portfolio.html" class="nav-link">Portfolio</a></li>
                     <li><a href="/contact.html" class="nav-link">Contact</a></li>
                     <li><a href="/contact.html" class="nav-cta btn btn-success">Get Strategy</a></li>
                 </ul>
-            </div>
-        </nav>
-    </div>
-</header>
 
-    <!-- Hero Section - Dark background with light text -->
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
-            <div class="hero-content text-center">
-                <div class="hero-text">
-                    <span class="hero-badge animate-fade-in">Pakistan's #1 Integrated Growth Agency</span>
-                    <h1 class="hero-title animate-fade-in" style="animation-delay: 0.1s">Where Media Authority Meets Digital Performance</h1>
-                    <p class="hero-subtitle animate-fade-in" style="animation-delay: 0.2s">We don't just build visibility; we build profitable, automated growth engines with 14+ years of expertise in media, PR, and digital transformation.</p>
-                    
-                    <div class="hero-buttons d-flex justify-center flex-wrap animate-fade-in" style="animation-delay: 0.3s">
-                        <a href="contact.html" class="btn btn-success btn-lg">
-                            <i class="fas fa-calendar-check"></i> Book Free Strategy Session
-                        </a>
-                        <a href="tel:+923332924941" class="btn btn-outline-light btn-lg">
-                            <i class="fas fa-phone-alt"></i> Call +92 333 2924941
-                        </a>
+            <div class="hero-content">
+                <span class="hero-badge animate-fade-in">Pakistan's #1 Integrated Growth Agency</span>
+                <h1 class="hero-title animate-fade-in">Where Media Authority Meets Digital Performance</h1>
+                <p class="hero-subtitle animate-fade-in">We don't just build visibility; we build profitable, automated growth engines with 14+ years of expertise in media, PR, and digital transformation.</p>
+                
+                <div class="hero-buttons animate-fade-in">
+                    <a href="contact.html" class="btn btn-success btn-lg">
+                        Book Free Strategy Session <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="tel:+923332924941" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-phone-alt"></i> +92 333 2924941
+                    </a>
+                </div>
+                
+                <div class="hero-stats animate-fade-in">
+                    <div class="stat-item">
+                        <h3>14+</h3>
+                        <p>Years Experience</p>
                     </div>
-                    
-                    <!-- FIXED: Added hidden H2 for proper heading hierarchy -->
-                    <h2 class="sr-only">Our Achievements and Track Record</h2>
-<div class="hero-stats d-flex justify-center flex-wrap animate-fade-in" style="animation-delay: 0.3s">
-    <div class="stat-item">
-        <h3>14+</h3>
-        <p>Years Experience</p>
-    </div>
-    <div class="stat-item">
-        <h3>200+</h3>
-        <p>Brands Transformed</p>
-    </div>
-    <div class="stat-item">
-        <h3>99%</h3>
-        <p>Client Retention Rate</p>
-    </div>
-    <div class="stat-item">
-        <h3>3x</h3>
-        <p>Average ROI Delivered</p>
-    </div>
-</div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>Brands Transformed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>99%</h3>
+                        <p>Retention Rate</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>3x</h3>
+                        <p>Average ROI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </section>
 
-    <!-- Value Proposition - Light background with dark text -->
-<section class="section value-proposition-section">
-    <div class="container">
-        <div class="section-header text-center">
-            <h2 class="section-title">Full-Spectrum Strategic Communications & Digital Growth Partner</h2>
-            <p class="section-subtitle">We bridge the gap between traditional media authority and cutting-edge digital performance.</p>
-        </div>
-        
-        <div class="value-grid grid-4">
-            <div class="value-card animate-fade-in">
-                <div class="value-icon digital">
-                    <i class="fas fa-video"></i>
-                </div>
-                <h3>Video & Graphic Content Creation</h3>
-                <p>With access to high-level professional editors and designers, we create premium-quality videos, social media clips, motion graphics, and animations that enhance brand visibility, engagement, and storytelling across all digital platforms.</p>
+    <!-- Value Proposition -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Full-Spectrum Strategic Communications & Digital Growth</h2>
+                <p class="section-subtitle">We bridge the gap between traditional media authority and cutting-edge digital performance to deliver measurable business outcomes.</p>
             </div>
             
-            <div class="value-card animate-fade-in" style="animation-delay: 0.1s">
-                <div class="value-icon pr">
-                    <i class="fas fa-newspaper"></i>
+            <div class="grid grid-4">
+                <div class="card animate-fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Content Creation</h3>
+                    <p>Premium-quality videos, social media clips, and motion graphics that enhance brand visibility and storytelling across all platforms.</p>
                 </div>
-                <h3>Public Relations & Media Strategy</h3>
-                <p>Leveraging strong journalism and media expertise, we help clients secure strategic media coverage, craft impactful press releases, manage media relations, and build credible public narratives that strengthen brand reputation.</p>
+                
+                <div class="card animate-fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>Public Relations</h3>
+                    <p>Leveraging media expertise to secure strategic coverage, craft press releases, and build credible public narratives for your brand.</p>
+                </div>
+                
+                <div class="card animate-fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automation</h3>
+                    <p>Advanced AI-powered tools and CRM systems that deliver automated marketing workflows and high-performance lead generation.</p>
+                </div>
+                
+                <div class="card animate-fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Strategy</h3>
+                    <p>Strategic guidance in digital marketing planning, SEO, and social media to help brands grow sustainably in competitive markets.</p>
+                </div>
             </div>
             
-            <div class="value-card animate-fade-in" style="animation-delay: 0.2s">
-                <div class="value-icon automation">
-                    <i class="fas fa-robot"></i>
-                </div>
-                <h3>Automation & Lead Generation</h3>
-                <p>Using advanced AI-powered tools and CRM systems, we deliver automated marketing workflows, customer integration solutions, and high-performance lead generation systems that improve efficiency and conversion.</p>
-            </div>
-            
-            <div class="value-card animate-fade-in" style="animation-delay: 0.3s">
-                <div class="value-icon leads">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <h3>Digital Marketing Consulting</h3>
-                <p>Based on deep industry experience, we provide strategic guidance in digital marketing planning, SEO, social media strategy, and content marketing to help brands grow sustainably in competitive markets.</p>
+            <div class="text-center mt-8 animate-fade-in">
+                <a href="services.html" class="btn btn-outline-dark btn-lg">
+                    Explore Our Services <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
         </div>
-        
-        <div class="text-center mt-5 animate-fade-in" style="animation-delay: 0.4s">
-            <a href="services.html" class="btn btn-success btn-lg">
-                <i class="fas fa-eye"></i> View All Services
-            </a>
-        </div>
-    </div>
-</section>
+    </section>
 
-    <!-- Why Choose Us - Dark background with light text -->
-    <section class="section why-choose-us-section">
+    <!-- Why Choose Us -->
+    <section class="section dark-section">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Why Choose Voice Forte™</h2>
                 <p class="section-subtitle">What sets us apart as Pakistan's premier strategic growth partner</p>
             </div>
             
-            <div class="why-grid grid-4">
-                <div class="why-card animate-fade-in">
+            <div class="grid grid-4">
+                <div class="card card-dark animate-fade-in">
                     <div class="card-icon">
                         <i class="fas fa-sync-alt"></i>
                     </div>
-                    <h3>Unified Integrated Strategy</h3>
+                    <h3>Unified Strategy</h3>
                     <p>Seamless integration of PR, Digital Marketing, and Automation under one roof for cohesive brand growth.</p>
                 </div>
                 
-                <div class="why-card animate-fade-in" style="animation-delay: 0.1s">
+                <div class="card card-dark animate-fade-in">
                     <div class="card-icon">
                         <i class="fas fa-chart-bar"></i>
                     </div>
-                    <h3>ROI-Centric Execution</h3>
+                    <h3>ROI-Centric</h3>
                     <p>Every strategy tied to clear business outcomes—measurable leads, sales growth, and brand authority.</p>
                 </div>
                 
-                <div class="why-card animate-fade-in" style="animation-delay: 0.2s">
+                <div class="card card-dark animate-fade-in">
                     <div class="card-icon">
                         <i class="fas fa-globe-asia"></i>
                     </div>
-                    <h3>Globally-Minded, Locally-Rooted</h3>
+                    <h3>Global Mindset</h3>
                     <p>Pakistan-based expertise with strategy designed for both local impact and international expansion.</p>
                 </div>
                 
-                <div class="why-card animate-fade-in" style="animation-delay: 0.3s">
+                <div class="card card-dark animate-fade-in">
                     <div class="card-icon">
                         <i class="fas fa-newspaper"></i>
                     </div>
-                    <h3>Media-First Foundation</h3>
+                    <h3>Media-First</h3>
                     <p>We start with building credibility through media, then amplify it through digital for sustainable performance.</p>
                 </div>
             </div>
-            
-            <div class="text-center mt-5 animate-fade-in" style="animation-delay: 0.4s">
-                <a href="about.html" class="btn btn-outline-success btn-lg">
-                    <i class="fas fa-info-circle"></i> Learn More About Us
-                </a>
-            </div>
         </div>
     </section>
 
-    <!-- CTA Section - Green background with light text -->
-    <section class="cta-section">
+    <!-- CTA Section -->
+    <section class="section" style="background: var(--color-success); color: white;">
         <div class="container">
-            <div class="cta-content text-center">
-                <h2 class="animate-fade-in">Ready to Systematize Your Brand's Growth?</h2>
-                <p class="lead mb-4 animate-fade-in" style="animation-delay: 0.1s">Schedule your free, no-obligation strategy audit today and receive a custom growth blueprint.</p>
+            <div class="text-center">
+                <h2 class="section-title" style="color: white;">Ready to Systematize Your Growth?</h2>
+                <p class="section-subtitle mb-8" style="color: rgba(255, 255, 255, 0.9);">Schedule your free strategy audit today and receive a custom growth blueprint.</p>
                 
-                <div class="cta-stats d-flex justify-center flex-wrap animate-fade-in" style="animation-delay: 0.2s">
-                    <div class="cta-stat">
-                        <span class="cta-stat-number">Free</span>
-                        <span class="cta-stat-label">Strategy Audit</span>
-                    </div>
-                    <div class="cta-stat">
-                        <span class="cta-stat-number">60-min</span>
-                        <span class="cta-stat-label">Deep Dive Session</span>
-                    </div>
-                    <div class="cta-stat">
-                        <span class="cta-stat-number">24-48h</span>
-                        <span class="cta-stat-label">Response Time</span>
-                    </div>
-                </div>
-                
-                <div class="hero-buttons d-flex justify-center flex-wrap animate-fade-in" style="animation-delay: 0.3s">
-                    <a href="contact.html" class="btn btn-success btn-lg">
-                        <i class="fas fa-calendar-check"></i> Book Free Strategy Call
+                <div class="hero-buttons justify-center">
+                    <a href="contact.html" class="btn btn-outline-light btn-lg">
+                        Book Free Strategy Call <i class="fas fa-calendar-check"></i>
                     </a>
-                    <a href="tel:+923332924941" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-phone"></i> Call Now: +92 333 2924941
+                    <a href="tel:+923332924941" class="btn btn-lg" style="background: white; color: var(--color-success);">
+                        <i class="fas fa-phone"></i> +92 333 2924941
                     </a>
                 </div>
-                
-                <p class="mt-4 animate-fade-in" style="animation-delay: 0.4s">
-                    <i class="fas fa-clock"></i>
-                    Limited spots available • Growth blueprint included • No obligation
-                </p>
             </div>
         </div>
     </section>
 
-    <!-- Social Proof - Light background with dark text -->
-    <section class="social-section section">
+    <!-- Social Proof -->
+    <section class="section">
         <div class="container">
             <div class="section-header text-center">
-                <h2 class="section-title">Join Our Growing Community</h2>
-                <p class="section-subtitle">Follow for daily growth insights, case studies, and industry expertise</p>
+                <h2 class="section-title">Connect With Us</h2>
+                <p class="section-subtitle">Follow Pakistan's leading growth agency for daily insights and case studies.</p>
             </div>
             
-            <div class="social-grid animate-fade-in">
-                <!-- FIXED: Added rel="noopener noreferrer" for security -->
-                <a href="https://www.facebook.com/share/17ayaHpfs5/" target="_blank" rel="noopener noreferrer" class="social-item facebook" aria-label="Follow on Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                    <span class="social-label">Facebook</span>
+            <div class="grid grid-4">
+                <a href="https://www.facebook.com/share/17ayaHpfs5/" target="_blank" class="card text-center animate-fade-in">
+                    <div class="card-icon" style="margin-left: auto; margin-right: auto;">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <h3>Facebook</h3>
+                    <p>Join our community</p>
                 </a>
-                
-                <a href="https://www.instagram.com/voiceforteofficials" target="_blank" rel="noopener noreferrer" class="social-item instagram" aria-label="Follow on Instagram">
-                    <i class="fab fa-instagram"></i>
-                    <span class="social-label">Instagram</span>
+                <a href="https://www.instagram.com/voiceforteofficials" target="_blank" class="card text-center animate-fade-in">
+                    <div class="card-icon" style="margin-left: auto; margin-right: auto;">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Visual storytelling</p>
                 </a>
-                
-                <a href="https://youtube.com/@voiceforteofficials" target="_blank" rel="noopener noreferrer" class="social-item youtube" aria-label="Subscribe on YouTube">
-                    <i class="fab fa-youtube"></i>
-                    <span class="social-label">YouTube</span>
+                <a href="https://youtube.com/@voiceforteofficials" target="_blank" class="card text-center animate-fade-in">
+                    <div class="card-icon" style="margin-left: auto; margin-right: auto;">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube</h3>
+                    <p>Growth insights</p>
                 </a>
-                
-                <a href="https://www.tiktok.com/@voiceforteofficials" target="_blank" rel="noopener noreferrer" class="social-item tiktok" aria-label="Follow on TikTok">
-                    <i class="fab fa-tiktok"></i>
-                    <span class="social-label">TikTok</span>
+                <a href="https://www.linkedin.com/company/voice-forte/" target="_blank" class="card text-center animate-fade-in">
+                    <div class="card-icon" style="margin-left: auto; margin-right: auto;">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Professional network</p>
                 </a>
-                
-                <a href="https://www.linkedin.com/company/voice-forte/" target="_blank" rel="noopener noreferrer" aria-label="Follow on LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                    <span class="social-label">LinkedIn</span>
-                </a>
-            </div>
-            
-            <div class="text-center mt-5 animate-fade-in" style="animation-delay: 0.2s">
-                <p>Connect with us for daily insights on PR, digital marketing, and business growth strategies.</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer - Dark background with light text -->
+    <!-- Footer -->
     <footer class="main-footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <div class="footer-logo">
-                        <h3>Voice Forte<span class="trademark">™</span></h3>
-                        <p class="footer-description">Strategic Communications & Digital Growth Agency</p>
-                    </div>
-                    <p class="footer-description mt-3">Empowering brands with media authority and data-driven growth systems since 2013. Based in Pakistan, serving brands globally.</p>
-                    
-                    <div class="mt-4">
-                        <a href="tel:+923332924941" class="btn btn-success">
-                            <i class="fas fa-phone"></i> Call Now
-                        </a>
+                    <a href="/" class="logo mb-4">
+                        <div class="logo-text">
+                            <h1 style="color: white;">Voice Forte<span class="trademark">™</span></h1>
+                            <p class="logo-tagline">Strategic Growth Agency</p>
+                        </div>
+                    </a>
+                    <p>Empowering brands with media authority and data-driven growth systems since 2013. Based in Pakistan, serving brands globally.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 
                 <div class="footer-col">
-                    <h4>Quick Links</h4>
+                    <h4>Company</h4>
                     <ul class="footer-links">
                         <li><a href="/">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="contact.html">Get Free Strategy</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
-                    <h4>Contact Details</h4>
-                    <div class="contact-info">
-                        <p><i class="fas fa-phone"></i> <a href="tel:+923332924941">+92 333 2924941</a></p>
-                        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/923132992571" target="_blank" rel="noopener noreferrer">+92 313 2992571</a></p>
-                        <p><i class="fas fa-envelope"></i> <a href="mailto:voiceforteofficials@gmail.com">voiceforteofficials@gmail.com</a></p>
-                        <p><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM (PKT)</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Based in Pakistan, Serving Globally</p>
-                    </div>
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+923332924941">+92 333 2924941</a></li>
+                        <li><a href="mailto:voiceforteofficials@gmail.com">voiceforteofficials@gmail.com</a></li>
+                        <li>Based in Pakistan</li>
+                        <li>Serving Globally</li>
+                    </ul>
                 </div>
                 
                 <div class="footer-col">
-                    <h4>Stay Updated</h4>
-                    <p>Subscribe to our newsletter for growth insights and industry updates</p>
-                    <form class="newsletter-form d-flex">
-                        <input type="email" placeholder="Your email address" required>
-                        <button type="submit" class="btn btn-success">Subscribe</button>
+                    <h4>Newsletter</h4>
+                    <p>Get growth insights delivered to your inbox.</p>
+                    <form class="newsletter-form mt-4">
+                        <input type="email" placeholder="Email address" class="mb-2" style="width: 100%; padding: 0.75rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: white;">
+                        <button type="submit" class="btn btn-success" style="width: 100%;">Subscribe</button>
                     </form>
-                    
-                    <div class="mt-4">
-                        <p>Follow us on social media:</p>
-                        <div class="social-links d-flex">
-                            <a href="https://www.facebook.com/share/17ayaHpfs5/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/voiceforteofficials" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                            <a href="https://youtube.com/@voiceforteofficials" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.tiktok.com/@voiceforteofficials" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                            <a href="https://www.linkedin.com/company/voice-forte/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
                 </div>
             </div>
             
-            <div class="footer-bottom text-center">
-                <p>&copy; <span id="current-year">2024</span> Voice Forte™. All rights reserved. | Where Media Authority Meets Digital Performance</p>
-                <p class="mt-2">Strategic PR & Digital Growth Partner for Ambitious Brands</p>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> Voice Forte™. All rights reserved.</p>
+                <div class="footer-links d-flex gap-4">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
@@ -878,6 +840,5 @@
     <script type="module" src="js/firestore-service.js"></script>
     <script src="js/main.js"></script>
     <script type="module" src="js/home.js"></script>
-<script type="module" src="/index.tsx"></script>
 </body>
 </html>
