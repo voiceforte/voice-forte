@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="Voice Forte™ Portfolio | Our Success Stories in PR, Digital Marketing, and Growth Automation | Case Studies & Client Work">
+    <meta name="keywords" content="Voice Forte portfolio, PR case studies, digital marketing results, growth automation success, client work, success stories, media coverage, lead generation">
+    
+    <!-- Author and Copyright -->
+    <meta name="author" content="Voice Forte">
+    <meta name="copyright" content="Voice Forte">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Portfolio | Voice Forte™ | Strategic Growth Agency Success Stories">
+    <meta property="og:description" content="Explore our impactful work in PR, Digital Marketing, and Growth Automation for leading brands">
+    <meta property="og:image" content="https://voiceforte.com/images/og-image-portfolio.jpg">
+    <meta property="og:url" content="https://voiceforte.com/portfolio.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Voice Forte">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@VoiceForte">
+    <meta name="twitter:creator" content="@VoiceForte">
+    <meta name="twitter:title" content="Portfolio | Voice Forte™ | Strategic Growth Success">
+    <meta name="twitter:description" content="See how we've transformed brands with media authority and digital performance">
+    <meta name="twitter:image" content="https://voiceforte.com/images/twitter-card-portfolio.jpg">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Voice Forte Portfolio",
+        "description": "Showcasing success stories in PR, Digital Marketing, and Growth Automation",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Voice Forte",
+            "foundingDate": "2013"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://voiceforte.com/portfolio.html"
+        }
+    }
+    </script>
+    
+    <title>Portfolio | Voice Forte™ | Our Success Stories & Case Studies</title>
+    
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://voiceforte.com/portfolio.html">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VR7BTZFY5V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VR7BTZFY5V');
+    </script>
+    
+    <!-- Enhanced Portfolio Styles -->
+    <style>
+        /* Hero Section for Portfolio */
+        .portfolio-hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            padding: 6rem 0 4rem;
+        }
+        
+        .portfolio-hero .hero-title {
+            color: white;
+        }
+        
+        .portfolio-hero .hero-subtitle {
+            color: #cbd5e1;
+        }
+        
+        /* Portfolio Filters */
+        .portfolio-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+        
+        .filter-btn {
+            background: #f1f5f9;
+            color: #334155;
+            border: 1px solid #e2e8f0;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+        
+        .filter-btn:hover {
+            background: #e2e8f0;
+            color: #1e293b;
+        }
+        
+        .filter-btn.active {
+            background: linear-gradient(90deg, #10b981, #059669);
+            color: white;
+            border-color: #059669;
+            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.2);
+        }
+        
+        /* Portfolio Grid */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+        }
+        
+        .portfolio-item {
+            background: #ffffff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid #e5e7eb;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .portfolio-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(16, 185, 129, 0.15);
+            border-color: #10b981;
+        }
+        
+        .portfolio-image-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 60%; /* 5:3 aspect ratio */
+            overflow: hidden;
+        }
+        
+        .portfolio-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .portfolio-item:hover .portfolio-image {
+            transform: scale(1.05);
+        }
+        
+        .portfolio-content {
+            padding: 1.75rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .portfolio-content h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: #0f172a;
+            line-height: 1.3;
+        }
+        
+        .portfolio-content p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #475569;
+            margin-bottom: 1.5rem;
+        }
+        
+        .portfolio-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .portfolio-tag {
+            background: #e0f2f7;
+            color: #0891b2;
+            padding: 0.4rem 0.8rem;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        .portfolio-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #10b981;
+            font-weight: 600;
+            text-decoration: none;
+            margin-top: 1.5rem;
+            transition: color 0.3s ease;
+        }
+        
+        .portfolio-link:hover {
+            color: #059669;
+        }
+        
+        /* Load More Button */
+        .load-more-btn-container {
+            text-align: center;
+            margin-top: 4rem;
+        }
+        
+        /* Section Spacing */
+        .portfolio-section {
+            padding: 5rem 0;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .portfolio-filters {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .filter-btn {
+                width: 100%;
+                max-width: 250px;
+            }
+            
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .portfolio-item {
+                margin-bottom: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .portfolio-section {
+                padding: 3rem 0;
+            }
+            
+            .portfolio-content {
+                padding: 1.25rem;
+            }
+            
+            .portfolio-content h3 {
+                font-size: 1.4rem;
+            }
+            
+            .portfolio-content p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="/" class="logo">
+                    <div class="logo-text">
+                        <h1>Voice Forte<span class="trademark">™</span></h1>
+                        <p class="logo-tagline">Strategic Growth Agency</p>
+                    </div>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li><a href="/about.html" class="nav-link active">About</a></li>
+                    <li><a href="/services.html" class="nav-link">Services</a></li>
+                    <li><a href="/portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="/contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="/contact.html" class="nav-cta btn btn-success">Get Strategy</a></li>
+                </ul>
+
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section portfolio-hero">
+        <div class="container">
+            <div class="hero-content text-center">
+                <div class="hero-text">
+                    <span class="hero-badge animate-fade-in">Our Success Stories</span>
+                    <h1 class="hero-title animate-fade-in" style="animation-delay: 0.1s">Transforming Brands with Strategic Growth</h1>
+                    <p class="hero-subtitle animate-fade-in" style="animation-delay: 0.2s">Explore our impactful work in Public Relations, Digital Marketing, and Growth Automation for leading brands across diverse industries.</p>
+                    
+                    <div class="hero-buttons d-flex justify-center flex-wrap animate-fade-in" style="animation-delay: 0.3s">
+                        <a href="#portfolio" class="btn btn-success btn-lg">
+                            <i class="fas fa-arrow-down"></i> View Our Work
+                        </a>
+                        <a href="/contact.html" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-calendar-check"></i> Book Free Consultation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section light-section portfolio-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Our Featured Projects</h2>
+                <p class="section-subtitle">A glimpse into how Voice Forte delivers measurable results and builds lasting brand authority.</p>
+            </div>
+            
+            <div class="portfolio-filters animate-fade-in">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="pr">Public Relations</button>
+                <button class="filter-btn" data-filter="digital">Digital Marketing</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="content">Content Creation</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item animate-fade-in" data-category="pr">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://picsum.photos/seed/pr-campaign-1/800/480?blur=2" alt="PR Campaign for Tech Startup" class="portfolio-image" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-content">
+                        <div>
+                            <h3>Tech Startup Media Launch</h3>
+                            <p>Secured extensive media coverage for a new tech startup, generating over 50 million impressions and positioning them as an industry innovator.</p>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">PR Strategy</span>
+                            <span class="portfolio-tag">Media Relations</span>
+                            <span class="portfolio-tag">Brand Awareness</span>
+                        </div>
+                        <a href="#!" class="portfolio-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item animate-fade-in" data-category="digital">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://picsum.photos/seed/digital-marketing-ecom/800/480?blur=2" alt="E-commerce Digital Marketing" class="portfolio-image" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-content">
+                        <div>
+                            <h3>E-commerce Sales Acceleration</h3>
+                            <p>Implemented a data-driven digital marketing strategy that boosted online sales by 150% and increased conversion rates by 40% for a leading fashion brand.</p>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">SEO</span>
+                            <span class="portfolio-tag">Social Media Ads</span>
+                            <span class="portfolio-tag">Conversion Rate Optimization</span>
+                        </div>
+                        <a href="#!" class="portfolio-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item animate-fade-in" data-category="automation">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://picsum.photos/seed/crm-automation/800/480?blur=2" alt="CRM Automation for Service Business" class="portfolio-image" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-content">
+                        <div>
+                            <h3>CRM & Lead Nurturing Automation</h3>
+                            <p>Designed and implemented a comprehensive CRM and marketing automation system, reducing lead response time by 70% and increasing qualified leads by 60%.</p>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">CRM Integration</span>
+                            <span class="portfolio-tag">Marketing Automation</span>
+                            <span class="portfolio-tag">Lead Generation</span>
+                        </div>
+                        <a href="#!" class="portfolio-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item animate-fade-in" data-category="content">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://picsum.photos/seed/video-production/800/480?blur=2" alt="Corporate Video Production" class="portfolio-image" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-content">
+                        <div>
+                            <h3>Corporate Brand Story Video</h3>
+                            <p>Produced a series of high-impact corporate videos and motion graphics that significantly enhanced brand storytelling and audience engagement across digital channels.</p>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Video Production</span>
+                            <span class="portfolio-tag">Motion Graphics</span>
+                            <span class="portfolio-tag">Brand Storytelling</span>
+                        </div>
+                        <a href="#!" class="portfolio-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item animate-fade-in" data-category="pr">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://picsum.photos/seed/pr-crisis/800/480?blur=2" alt="Crisis Communication Management" class="portfolio-image" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-content">
+                        <div>
+                            <h3>Crisis Communication Management</h3>
+                            <p>Successfully navigated a high-stakes public relations crisis for a major corporation, protecting brand reputation and maintaining stakeholder trust through strategic media handling.</p>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Crisis PR</span>
+                            <span class="portfolio-tag">Reputation Management</span>
+                            <span class="portfolio-tag">Media Strategy</span>
+                        </div>
+                        <a href="#!" class="portfolio-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item animate-fade-in" data-category="digital">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://picsum.photos/seed/social-media-growth/800/480?blur=2" alt="Social Media Growth Strategy" class="portfolio-image" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="portfolio-content">
+                        <div>
+                            <h3>Social Media Audience Growth</h3>
+                            <p>Developed and executed a comprehensive social media strategy that grew audience engagement by 200% and increased follower count by 100% across key platforms.</p>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Social Media Strategy</span>
+                            <span class="portfolio-tag">Content Marketing</span>
+                            <span class="portfolio-tag">Community Engagement</span>
+                        </div>
+                        <a href="#!" class="portfolio-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="load-more-btn-container animate-fade-in">
+                <button id="load-more-portfolio" class="btn btn-outline-dark btn-lg">
+                    <i class="fas fa-plus-circle"></i> Load More Projects
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section - Green background with light text -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content text-center">
+                <h2 class="animate-fade-in">Ready to Transform Your Growth Strategy?</h2>
+                <p class="lead mb-4 animate-fade-in" style="animation-delay: 0.1s">Join 200+ ambitious brands who have systematically transformed their growth trajectory through our integrated, results-focused approach.</p>
+                
+                <div class="hero-buttons d-flex justify-center flex-wrap animate-fade-in" style="animation-delay: 0.2s">
+                    <a href="/contact.html" class="btn btn-success btn-lg">
+                        <i class="fas fa-calendar-check"></i> Book Free Strategy Session
+                    </a>
+                    <a href="/services.html" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-eye"></i> Explore Our Services
+                    </a>
+                </div>
+                
+                <p class="mt-4 animate-fade-in" style="animation-delay: 0.3s">
+                    <i class="fas fa-clock"></i>
+                    Free 60-minute strategy audit • Custom growth blueprint • No obligation or commitment
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="/" class="logo mb-4">
+                        <div class="logo-text">
+                            <h1 style="color: white;">Voice Forte<span class="trademark">™</span></h1>
+                            <p class="logo-tagline">Strategic Growth Agency</p>
+                        </div>
+                    </a>
+                    <p>Empowering brands with media authority and data-driven growth systems since 2013. Based in Pakistan, serving brands globally.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+923332924941">+92 333 2924941</a></li>
+                        <li><a href="mailto:voiceforteofficials@gmail.com">voiceforteofficials@gmail.com</a></li>
+                        <li>Based in Pakistan</li>
+                        <li>Serving Globally</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Get growth insights delivered to your inbox.</p>
+                    <form class="newsletter-form mt-4">
+                        <input type="email" placeholder="Email address" class="mb-2" style="width: 100%; padding: 0.75rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: white;">
+                        <button type="submit" class="btn btn-success" style="width: 100%;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> Voice Forte™. All rights reserved.</p>
+                <div class="footer-links d-flex gap-4">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            const menuBars = document.querySelectorAll('.menu-bar');
+            
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                    menuBars.forEach(bar => bar.classList.toggle('active'));
+                });
+            }
+            
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!navLinks.contains(event.target) && !mobileMenuBtn.contains(event.target) && navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    menuBars.forEach(bar => bar.classList.remove('active'));
+                }
+            });
+            
+            // Set current year
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+            
+            // Newsletter form submission
+            const newsletterForm = document.querySelector('.newsletter-form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const email = this.querySelector('input[type="email"]').value;
+                    if (email) {
+                        alert('Thank you for subscribing to Voice Forte newsletter! You\'ll receive growth insights soon.');
+                        this.reset();
+                    }
+                });
+            }
+            
+            // Active navigation link highlighting
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            const navLinksAll = document.querySelectorAll('.nav-link');
+            
+            navLinksAll.forEach(link => {
+                const linkHref = link.getAttribute('href');
+                if (linkHref === currentPage || 
+                    (currentPage === '' && linkHref === '/') ||
+                    (currentPage === 'index.html' && linkHref === '/')) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#' || href === '#!') return;
+                    
+                    const targetElement = document.querySelector(href);
+                    if (targetElement) {
+                        e.preventDefault();
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Header scroll effect
+            const header = document.querySelector('.main-header');
+            if (header) {
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 100) {
+                        header.classList.add('scrolled');
+                    } else {
+                        header.classList.remove('scrolled');
+                    }
+                });
+            }
+            
+            // Animate elements on scroll
+            const animateOnScroll = function() {
+                const elements = document.querySelectorAll('.animate-fade-in');
+                const windowHeight = window.innerHeight;
+                
+                elements.forEach(element => {
+                    const elementPosition = element.getBoundingClientRect().top;
+                    if (elementPosition < windowHeight - 100) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                });
+            };
+            
+            // Initial check
+            animateOnScroll();
+            
+            // Check on scroll
+            window.addEventListener('scroll', animateOnScroll);
+            
+            // Portfolio filtering logic
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.dataset.filter;
+                    
+                    portfolioItems.forEach(item => {
+                        if (filter === 'all' || item.dataset.category === filter) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Load more portfolio items (placeholder for dynamic loading)
+            const loadMoreBtn = document.getElementById('load-more-portfolio');
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', function() {
+                    alert('Loading more projects...');
+                    // In a real application, you would fetch more data from Firebase here
+                });
+            }
+            
+            // Back to top button functionality
+            const backToTop = document.createElement('button');
+            backToTop.innerHTML = '<i class="fas fa-chevron-up"></i>';
+            backToTop.className = 'back-to-top';
+            backToTop.style.cssText = `
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                width: 50px;
+                height: 50px;
+                background: #10b981;
+                color: white;
+                border: none;
+                border-radius: 50%;
+                cursor: pointer;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.2rem;
+                box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+                z-index: 1000;
+                transition: all 0.3s ease;
+            `;
+            
+            document.body.appendChild(backToTop);
+            
+            backToTop.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+                this.style.boxShadow = '0 8px 25px rgba(16, 185, 129, 0.4)';
+            });
+            
+            backToTop.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = '0 4px 15px rgba(16, 185, 129, 0.3)';
+            });
+            
+            backToTop.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 500) {
+                    backToTop.style.display = 'flex';
+                } else {
+                    backToTop.style.display = 'none';
+                }
+            });
+            
+            // Page load animation
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.5s ease';
+            
+            window.addEventListener('load', function() {
+                document.body.style.opacity = '1';
+                
+                // Add loading animation
+                const loadingOverlay = document.createElement('div');
+                loadingOverlay.className = 'loading-overlay';
+                loadingOverlay.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 9999;
+                    transition: opacity 0.5s ease;
+                `;
+                
+                loadingOverlay.innerHTML = `
+                    <div style="text-align: center;">
+                        <div style="width: 60px; height: 60px; border: 4px solid rgba(16, 185, 129, 0.2); border-top-color: #10b981; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px;"></div>
+                        <h3 style="color: white; margin-bottom: 10px;">Voice Forte™</h3>
+                        <p style="color: #cbd5e1;">Loading Portfolio</p>
+                    </div>
+                    <style>
+                        @keyframes spin {
+                            0% { transform: rotate(0deg); }
+                            100% { transform: rotate(360deg); }
+                        }
+                    </style>
+                `;
+                
+                document.body.appendChild(loadingOverlay);
+                
+                setTimeout(() => {
+                    loadingOverlay.style.opacity = '0';
+                    setTimeout(() => {
+                        loadingOverlay.remove();
+                    }, 500);
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+</html>
