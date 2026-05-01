@@ -1,272 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Primary Meta Tags -->
-    <meta name="description" content="Contact Voice Forte™ - Pakistan's Strategic Growth & PR Agency | Book Free Strategy Session for PR, Digital Marketing & Business Growth Solutions">
-    <meta name="keywords" content="contact Voice Forte, PR agency Pakistan, digital marketing consultation, business growth strategy, free strategy session, marketing agency contact">
+<title>Contact | Voice Forte™ | Strategic Growth & PR Agency</title>
 
-    <meta name="author" content="Voice Forte">
-    <meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Contact Voice Forte™ | Book Free Strategy Session">
-    <meta property="og:description" content="Connect with Pakistan's Strategic Growth Agency for PR, Digital Marketing & Automation solutions">
-    <meta property="og:url" content="https://voiceforte.com/contact.html">
-    <meta property="og:type" content="website">
+<style>
 
-    <title>Contact Voice Forte™ | Free Strategy Session | Strategic Growth Agency</title>
+/* =========================
+   PREMIUM GLOBAL STYLE
+========================= */
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+body{
+    background:#0b1220;
+    color:#e5e7eb;
+    font-family: 'Inter', sans-serif;
+}
 
-    <style>
-        /* HERO */
-        .contact-hero {
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-            color: white;
-            padding: 6rem 0 4rem;
-        }
+/* HERO */
+.contact-hero{
+    padding:120px 0 80px;
+    background: radial-gradient(circle at top, rgba(16,185,129,0.15), transparent 60%),
+                linear-gradient(135deg,#0b1220,#0f172a);
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+}
 
-        .contact-hero .hero-title { color: white; }
-        .contact-hero .hero-subtitle { color: #cbd5e1; }
+.hero-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border:1px solid rgba(16,185,129,0.4);
+    border-radius:50px;
+    color:#10b981;
+    font-size:13px;
+    margin-bottom:20px;
+    backdrop-filter: blur(10px);
+}
 
-        /* FORM */
-        .contact-form-container {
-            background: #ffffff;
-            border-radius: 16px;
-            padding: 3rem;
-            box-shadow: 0 15px 50px rgba(0,0,0,0.08);
-            border: 1px solid #e5e7eb;
-        }
+.hero-title{
+    font-size:3rem;
+    font-weight:800;
+    color:#ffffff;
+    margin-bottom:15px;
+}
 
-        .contact-form-container h2 {
-            font-size: 2.2rem;
-            font-weight: 800;
-            color: #0f172a;
-            text-align: center;
-        }
+.hero-subtitle{
+    font-size:1.2rem;
+    color:#94a3b8;
+    max-width:700px;
+    margin:auto;
+}
 
-        .contact-form-container p {
-            text-align: center;
-            color: #475569;
-            margin-bottom: 2rem;
-            font-size: 1.1rem;
-        }
+/* GLASS CARD FORM */
+.contact-wrapper{
+    display:grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap:40px;
+    margin-top:80px;
+}
 
-        .form-group { margin-bottom: 1.5rem; }
+.glass-card{
+    background: rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:20px;
+    padding:40px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
 
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            width: 100%;
-            padding: 1rem;
-            border-radius: 10px;
-            border: 1px solid #cbd5e1;
-            background: #f8fafc;
-            transition: 0.3s ease;
-        }
+/* FORM */
+input, select, textarea{
+    width:100%;
+    padding:14px 16px;
+    margin-top:10px;
+    border-radius:12px;
+    border:1px solid rgba(255,255,255,0.1);
+    background:rgba(255,255,255,0.03);
+    color:white;
+    outline:none;
+    transition:0.3s;
+}
 
-        .form-group input:focus,
-        .form-group textarea:focus,
-        .form-group select:focus {
-            border-color: #10b981;
-            outline: none;
-            box-shadow: 0 0 0 3px rgba(16,185,129,0.15);
-        }
+input:focus, textarea:focus, select:focus{
+    border-color:#10b981;
+    box-shadow:0 0 0 3px rgba(16,185,129,0.15);
+}
 
-        /* INFO CARDS */
-        .contact-info-card {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 16px;
-            padding: 2.5rem;
-            text-align: center;
-            transition: 0.3s ease;
-        }
+/* BUTTON */
+.btn-primary{
+    background:linear-gradient(135deg,#10b981,#059669);
+    padding:14px 25px;
+    border-radius:12px;
+    color:white;
+    font-weight:600;
+    border:none;
+    cursor:pointer;
+    transition:0.3s;
+}
 
-        .contact-info-card:hover {
-            transform: translateY(-5px);
-            border-color: rgba(16,185,129,0.4);
-        }
+.btn-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 30px rgba(16,185,129,0.3);
+}
 
-        .contact-info-card i {
-            font-size: 2.5rem;
-            color: #10b981;
-            margin-bottom: 1rem;
-        }
+/* SIDE INFO CARDS */
+.info-card{
+    padding:25px;
+    border-radius:16px;
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.08);
+    margin-bottom:20px;
+    transition:0.3s;
+}
 
-        .contact-info-card h3 {
-            color: white;
-            margin-bottom: 0.5rem;
-        }
+.info-card:hover{
+    transform:translateY(-5px);
+    border-color:#10b981;
+}
 
-        .contact-info-card p {
-            color: #cbd5e1;
-        }
+.info-card i{
+    font-size:22px;
+    color:#10b981;
+    margin-bottom:10px;
+}
 
-        /* CTA */
-        .cta-box {
-            background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(5,150,105,0.1));
-            padding: 3rem;
-            border-radius: 16px;
-            text-align: center;
-            border: 1px solid rgba(16,185,129,0.2);
-        }
+/* CTA SECTION */
+.final-cta{
+    margin-top:100px;
+    text-align:center;
+    padding:60px 30px;
+    border-radius:20px;
+    background:linear-gradient(135deg, rgba(16,185,129,0.1), rgba(15,23,42,0.9));
+    border:1px solid rgba(16,185,129,0.2);
+}
 
-        .cta-box h2 {
-            color: #0f172a;
-            font-weight: 800;
-        }
+.final-cta h2{
+    font-size:2.2rem;
+    color:white;
+    margin-bottom:10px;
+}
 
-        .cta-box p {
-            color: #475569;
-        }
-    </style>
+.final-cta p{
+    color:#94a3b8;
+}
+
+@media(max-width:900px){
+    .contact-wrapper{
+        grid-template-columns:1fr;
+    }
+}
+
+</style>
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header class="main-header">
-    <div class="container">
-        <nav class="navbar">
-
-            <a href="/" class="logo">
-                <h1>Voice Forte<span class="trademark">™</span></h1>
-            </a>
-
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/services.html">Services</a></li>
-                <li><a href="/portfolio.html">Portfolio</a></li>
-                <li><a href="/contact.html" class="nav-link active">Contact</a></li>
-            </ul>
-
-        </nav>
-    </div>
-</header>
-
 <!-- HERO -->
 <section class="contact-hero">
-    <div class="container text-center">
-        <span class="hero-badge">Let’s Build Your Growth Story</span>
-        <h1 class="hero-title">Book Your Free Strategy Session</h1>
-        <p class="hero-subtitle">
-            Tell us about your business — we’ll design a clear roadmap for your brand visibility, PR impact, and digital growth.
+    <span class="hero-badge">Strategic Growth • PR • Media Authority</span>
+    <h1 class="hero-title">Let’s Build Your Brand Authority</h1>
+    <p class="hero-subtitle">
+        We don’t just respond to inquiries — we design growth systems.  
+        Share your goals and we’ll craft your media + marketing strategy.
+    </p>
+
+    <a href="#contact" class="btn-primary" style="margin-top:25px; display:inline-block;">
+        Start Free Strategy Session
+    </a>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" style="padding:80px 8%">
+
+<div class="contact-wrapper">
+
+    <!-- FORM -->
+    <div class="glass-card">
+
+        <h2 style="color:white; font-size:1.8rem;">Tell Us About Your Business</h2>
+        <p style="color:#94a3b8; margin-bottom:30px;">
+            We respond within 24 hours with a clear strategic direction.
         </p>
 
-        <a href="#form" class="btn btn-success btn-lg mt-4">
-            Start Your Strategy Journey
-        </a>
+        <form>
+
+            <label>Name</label>
+            <input type="text" placeholder="Your full name">
+
+            <label>Email</label>
+            <input type="email" placeholder="your@email.com">
+
+            <label>Phone</label>
+            <input type="text" placeholder="+92...">
+
+            <label>Service Needed</label>
+            <select>
+                <option>PR & Media Strategy</option>
+                <option>Digital Growth Strategy</option>
+                <option>Content Production</option>
+                <option>Brand Consulting</option>
+                <option>Full Growth System</option>
+            </select>
+
+            <label>Project Details</label>
+            <textarea rows="5" placeholder="Tell us your goals..."></textarea>
+
+            <button class="btn-primary" style="margin-top:20px; width:100%;">
+                Send Request
+            </button>
+
+        </form>
     </div>
-</section>
 
-<!-- FORM -->
-<section id="form" class="section light-section">
-    <div class="container">
+    <!-- SIDE INFO -->
+    <div>
 
-        <div class="contact-form-container">
-            <h2>Get Your Custom Growth Strategy</h2>
-            <p>No templates. No guesswork. Just a tailored plan for your business growth.</p>
+        <div class="info-card">
+            <i class="fas fa-phone"></i>
+            <h3>Call Direct</h3>
+            <p>+92 333 2924941</p>
+        </div>
 
-            <form>
-                <div class="grid-2">
-                    <div class="form-group">
-                        <input type="text" placeholder="Full Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email Address" required>
-                    </div>
-                </div>
+        <div class="info-card">
+            <i class="fab fa-whatsapp"></i>
+            <h3>WhatsApp</h3>
+            <p>Fast response support</p>
+        </div>
 
-                <div class="grid-2">
-                    <div class="form-group">
-                        <input type="tel" placeholder="Phone Number">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Company Name">
-                    </div>
-                </div>
+        <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>voiceforteofficials@gmail.com</p>
+        </div>
 
-                <div class="form-group">
-                    <select>
-                        <option>Select Service</option>
-                        <option>Public Relations (PR)</option>
-                        <option>Digital Marketing Strategy</option>
-                        <option>Content & Video Production</option>
-                        <option>Brand Growth Consulting</option>
-                        <option>Full Growth Strategy</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <textarea rows="5" placeholder="Tell us about your goals..."></textarea>
-                </div>
-
-                <div class="text-center">
-                    <button class="btn btn-success btn-lg">Send Request</button>
-                </div>
-            </form>
+        <div class="info-card">
+            <i class="fas fa-bolt"></i>
+            <h3>Response Time</h3>
+            <p>Within 24 Hours</p>
         </div>
 
     </div>
-</section>
 
-<!-- CONTACT INFO -->
-<section class="section dark-section">
-    <div class="container">
-        <div class="grid-3">
+</div>
 
-            <div class="contact-info-card">
-                <i class="fas fa-phone"></i>
-                <h3>Call Us</h3>
-                <p><a href="tel:+923332924941">+92 333 2924941</a></p>
-            </div>
+<!-- FINAL CTA -->
+<div class="final-cta">
+    <h2>Not Just Contact — Start Your Growth System</h2>
+    <p>PR • Media • Digital Strategy • Automation • Brand Authority</p>
 
-            <div class="contact-info-card">
-                <i class="fab fa-whatsapp"></i>
-                <h3>WhatsApp</h3>
-                <p><a href="https://wa.me/923132992571">Quick Chat Support</a></p>
-            </div>
-
-            <div class="contact-info-card">
-                <i class="fas fa-envelope"></i>
-                <h3>Email</h3>
-                <p>voiceforteofficials@gmail.com</p>
-            </div>
-
-        </div>
+    <div style="margin-top:20px;">
+        <a href="tel:+923332924941" class="btn-primary">Call Now</a>
     </div>
+</div>
+
 </section>
-
-<!-- CTA -->
-<section class="section light-section">
-    <div class="container">
-
-        <div class="cta-box">
-            <h2>Ready to Scale Your Brand?</h2>
-            <p>Let’s turn your business into a visible, credible, and high-growth brand.</p>
-
-            <a href="tel:+923332924941" class="btn btn-success btn-lg mt-3">
-                Book Free Consultation
-            </a>
-        </div>
-
-    </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="main-footer">
-    <div class="container text-center">
-        <p>© 2026 Voice Forte™. All Rights Reserved.</p>
-    </div>
-</footer>
 
 </body>
 </html>
